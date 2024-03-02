@@ -15,19 +15,17 @@ body {
     position: absolute;
     top: 0;
 }
-#cards {
-    text-align: center;
-}
 #cardscontainer {
-    display: inline-block;
-   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 .card {
     background-color: lightblue;
     padding: 20px;
     border: 2px solid black;
     border-radius: 10px;
-    float: left;
     margin: 5px;
 }
 
